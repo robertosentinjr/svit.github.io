@@ -1,0 +1,538 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Grotesk', sans-serif; 
+  font-family: 'Inter', sans-serif;
+}
+/* nav bar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.lightlogo img {
+  height: 60px;
+  width: 224px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  font-family: 'Space Grotesk';
+}
+
+.nav-links li a:hover {
+  color: #0A1881;
+}
+
+.nav-links li a.active {
+  color: #0A1881;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.right-navlinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right-navlinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right-navlinks a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 15px;
+  text-decoration: 'Space Grotesk';
+}
+
+.right-navlinks a.contact-btn {
+  background-color: #0A1881;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.right-navlinks a.contact-btn:hover {
+  background-color: #313EA3;
+}
+
+.right-navlinks a.contact-btn:active {
+  background-color: #0A1881;
+}
+
+.right-navlinks a.contact-btn {
+  color: #fff;
+}
+
+.contact-btn {
+  background-color: #0A1881;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Space Grotesk';
+}
+
+/* Hero Section */
+
+.heroimage {
+  position: relative;
+  height: 664px;
+  margin-top: 103px;
+}
+
+.heroimg-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heroimg-content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: 'Space Grotesk';
+}
+
+.heroimg-content p {
+  font-family: 'Inter';
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.inquire-btn {
+  background-color: #FFF50E;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.heroimage img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Why Choose Us */
+
+.choose-us-section {
+  margin-top: 150px;
+}
+
+.choose-us-content {
+  text-align: center;
+}
+
+.choose-us-content h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: 'Space Grotesk';
+}
+
+.choose-us-content p {
+  font-size: 20px;
+  line-height: 1.5;
+  width: 700px;
+  margin: 0 auto;
+  font-family: 'inter';
+  margin-bottom: 100px;
+}
+
+/* Programs */
+
+.programs-section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 100px;
+}
+
+.programs-content {
+  display: flex;
+  flex-direction: row;
+  padding: 0 75px;
+  justify-content: center;
+  align-items: center;
+}
+
+.programs-content img {
+  width: 463px;
+  height: 396px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.programs-description {
+  width: 500px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.programs-description h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Space Grotesk';
+}
+
+.programs-description p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'inter';
+  font-weight: 400;
+}
+
+/* campus life */
+
+
+.campus-life {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF866;
+  background-size: 100%;
+}
+
+.campus-life .campus-life-left {
+  width: 594px;
+  height: 627px;
+}
+
+.campus-life .campus-life-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.campus-life .campus-life-right {
+  margin-left: 100px;
+  max-width: 50%;
+}
+
+.campus-life h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  font-family: 'Space Grotesk';
+}
+
+.campus-life p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  width: 500px;
+  font-family: 'inter';
+}
+
+.campus-life .visit-btn {
+  background-color: #0A1881;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.campus-life .visit-btn:hover {
+  background-color: #313EA3;
+}
+
+.campus-life .visit-btn:active {
+  background-color: #0A1881;
+}
+
+.campus-life .visit-btn {
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Space Grotesk';
+}
+
+/* Schedule a Visit */
+.schedule-visit {
+  margin-top: 100px;
+}
+
+.schedule-visit {
+  text-align: center;
+}
+
+.schedule-visit h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: 'Space Grotesk';
+}
+
+.schedule-visit p {
+  font-size: 20px;
+  line-height: 1.5;
+  width: 700px;
+  margin: 0 auto;
+  font-family: 'inter';
+  margin-bottom: 100px;
+}
+
+/* Contact Info & Maps */
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.contact-section h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-family: 'Space Grotesk';
+}
+
+.contact-section .left-contact {
+  max-width: 50%;
+  margin-right: 100px;
+}
+
+.contact-section .right-contact {
+  max-width: 50%;
+}
+
+.contact-section .contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 386px;
+}
+
+.contact-text{
+  margin-left: 16px;
+}
+
+.contact-section .contact-text a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.contact-section .contact-text a:hover {
+  color: #313EA3;
+}
+
+.contact-section .contact-text a:active {
+  color: #0A1881;
+}
+
+.contact-section .right-contact iframe {
+  border-radius: 5px;
+}
+
+/* Footer Sitemap */
+
+footer {
+  background-color: #0A1881;
+  color: #fff;
+  padding: 30px 200px;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-column {
+  text-align: left;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-contacts{
+  display: flex;
+  flex-direction: column;
+}
+
+.phone a, .email a, .facebook a{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.phone i, .email i, .facebook i {
+  margin-right: 20px;
+}
+
+.footer-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: 'Space Grotesk';
+}
+
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 20px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover{
+  text-decoration: underline;
+}
+
+.footer-links li a:focus {
+  outline: none;
+}
+
+.copyright {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
+/* ABOUT.HTML */
+
+
+
+
+/* About us */
+.about {
+  background-color: #0A1881;
+  width: 100%;
+  height: 236px;
+  position: relative;
+  margin-top: 110px;
+}
+
+.about-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.about-text h3 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Space Grotesk';
+}
+
+.about-text h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0;
+  font-family: 'Space Grotesk';
+}
+
+/* About sections */
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 100px;
+}
+
+.about-content {
+display: flex;
+flex-direction: row;
+padding: 0 75px;
+justify-content: center;
+align-items: center;
+}
+
+.about-content img {
+width: 463px;
+height: 396px;
+margin-right: 35px;
+margin-left: 35px;
+}
+
+.about-right-content {
+width: 500px;
+margin-right: 35px;
+margin-left: 35px;
+}
+
+.about-right-content h3 {
+font-size: 32px;
+margin-bottom: 20px;
+font-family: 'Space Grotesk';
+}
+
+.about-right-content p {
+font-size: 20px;
+line-height: 1.5;
+font-family: 'inter';
+font-weight: 400;
+}
+
+
+/*End */
+
+
+		
+
+
+
+/*contact us */
+
+
+
+
+
+
+/* login Form */
+
+ 
